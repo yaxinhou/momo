@@ -2,7 +2,7 @@ name: Click分享Link
 on:
   push:
     branches:
-      - main
+      - master
   schedule:
     - cron: '1,32 * * * *' 
   workflow_dispatch:
